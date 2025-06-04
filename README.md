@@ -10,6 +10,7 @@ To build the Docker image, run the following command from the project directory:
 
 
 docker build -t 2048-game .
+----
 
 **##🚀 How to Run the Container**
 Run the container and expose it on port 8080:
@@ -47,18 +48,7 @@ docker rm my-2048-game
 
 docker image rm 2048-game      # Remove the image
 docker container prune         # Remove stopped containers
-📌 Notes
-Nginx is configured to run in the foreground using daemon off;.
 
-The 2048 source code is pulled directly from Gabriele Cirulli's GitHub.
-
-🙏 Credits
-Original game by Gabriele Cirulli
-
-Dockerized by [Your Name]
-
-📄 License
-This project uses the MIT License. See the original 2048 repo for details.
 
 
 
