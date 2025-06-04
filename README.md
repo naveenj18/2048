@@ -1,4 +1,4 @@
-# 🎮 2048 Game Dockerized
+![image](https://github.com/user-attachments/assets/e28515fb-9f3d-4be2-9fa6-a77cdca93ba5)# 🎮 2048 Game Dockerized
 
 This project containerizes the popular [2048 game](https://github.com/gabrielecirulli/2048) using **Docker** and serves it via **Nginx** on Ubuntu.
 
@@ -11,4 +11,5 @@ Run the following command from the project root directory:
 ```bash
 docker build -t 2048-game .
 
-![image alt](https://github.com/naveenj18/2048/blob/ed4b19ee909dcf5d3d92019e737b8f7e3fd5ea83/Screenshot%202025-06-04%20091721.png)
+![image alt](![image](https://github.com/user-attachments/assets/b847396c-327f-4a83-a895-d90cbd0e505e)
+)
