@@ -8,20 +8,17 @@ This project containerizes the popular [2048 game](https://github.com/gabrieleci
 
 To build the Docker image, run the following command from the project directory:
 
-```bash
+
 docker build -t 2048-game .
-🚀 How to Run the Container
+
+**##🚀 How to Run the Container**
 Run the container and expose it on port 8080:
 
-bash
-Copy
-Edit
-docker run -d -p 8080:80 --name my-2048-game 2048-game
-Now open your browser and visit:
 
-arduino
-Copy
-Edit
+docker run -d -p 8080:80 --name my-2048-game 2048-game
+**Now open your browser and visit:**
+
+
 http://localhost:8080
 You should see the 2048 game running.
 
@@ -41,17 +38,13 @@ Clones the original 2048 game from GitHub
 Serves it via Nginx in /var/www/html
 
 🛑 Stopping the Container
-To stop and remove the running container:
+**To stop and remove the running container:**
 
-bash
-Copy
-Edit
+
 docker stop my-2048-game
 docker rm my-2048-game
-📦 Clean Up Docker Resources
-bash
-Copy
-Edit
+**📦 Clean Up Docker Resources**
+
 docker image rm 2048-game      # Remove the image
 docker container prune         # Remove stopped containers
 📌 Notes
@@ -67,18 +60,9 @@ Dockerized by [Your Name]
 📄 License
 This project uses the MIT License. See the original 2048 repo for details.
 
-yaml
-Copy
-Edit
 
----
 
-Let me know if you'd like me to insert:
-- Your name or GitHub profile
-- A Docker Hub link if you're publishing the image
-- Badges (e.g., Docker pulls, GitHub stars)
 
-I can update it accordingly!
 
 
 
